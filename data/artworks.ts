@@ -5,7 +5,7 @@ export const artworks = [
     price: 250,
     description:
       "A beautiful sunset painting with vibrant colors capturing the serene moment when day transitions to night. The warm oranges and reds blend seamlessly with cool purples and blues, creating a peaceful atmosphere that invites contemplation.",
-    image: "/placeholder.svg?height=500&width=500&text=Sunset+Bliss",
+    image: "/nicolas-pinilla-9wAyg2DHwT0-unsplash.jpg",
     category: "Landscape",
     size: '24" x 36"',
   },
@@ -15,7 +15,7 @@ export const artworks = [
     price: 300,
     description:
       "An abstract art piece that explores deep emotions through a complex interplay of shapes and colors. The dynamic composition creates movement and energy, inviting viewers to find their own meaning within the vibrant chaos.",
-    image: "/placeholder.svg?height=500&width=500&text=Abstract+Dreams",
+    image: "/amir-shiri-CWLg9GhtxiA-unsplash.jpg",
     category: "Abstract",
     size: '30" x 30"',
   },
@@ -25,7 +25,7 @@ export const artworks = [
     price: 275,
     description:
       "A peaceful mountain landscape showcasing the majesty of nature. The detailed brushwork captures the texture of distant peaks, lush forests, and a crystal-clear lake reflecting the sky above.",
-    image: "/placeholder.svg?height=500&width=500&text=Mountain+Serenity",
+    image: "/taylor-flowe-WzR4DU7cxng-unsplash.jpg",
     category: "Landscape",
     size: '20" x 30"',
   },
@@ -35,7 +35,7 @@ export const artworks = [
     price: 325,
     description:
       "A dynamic cityscape capturing the energy and rhythm of urban life. The painting blends architectural elements with abstract techniques to convey the constant motion and vibrancy of city living.",
-    image: "/placeholder.svg?height=500&width=500&text=Urban+Rhythm",
+    image: "/irvin-zheng-HzH7Yp-snr0-unsplash.jpg",
     category: "Abstract",
     size: '36" x 24"',
   },
@@ -45,7 +45,7 @@ export const artworks = [
     price: 200,
     description:
       "A delicate still life featuring a bouquet of seasonal flowers in full bloom. The careful attention to light and shadow brings out the subtle textures and colors of each petal and leaf.",
-    image: "/placeholder.svg?height=500&width=500&text=Floral+Elegance",
+    image: "/olga-nayda-zvm4JMDSLfo-unsplash.jpg",
     category: "Still Life",
     size: '18" x 24"',
   },
@@ -55,7 +55,7 @@ export const artworks = [
     price: 280,
     description:
       "A serene seascape that captures the gentle movement of waves against a rocky shore. The painting evokes the soothing sounds and smells of the ocean, creating a sense of calm and tranquility.",
-    image: "/placeholder.svg?height=500&width=500&text=Ocean+Whispers",
+    image: "/mahbub-majid-Jgfp03wkcAU-unsplash.jpg",
     category: "Landscape",
     size: '24" x 36"',
   },
@@ -65,7 +65,7 @@ export const artworks = [
     price: 350,
     description:
       "A thoughtful portrait that captures a moment of deep reflection. The subject's expression and posture convey a sense of introspection, inviting viewers to consider their own inner thoughts.",
-    image: "/placeholder.svg?height=500&width=500&text=Contemplation",
+    image: "/birmingham-museums-trust-sJr8LDyEf7k-unsplash.jpg",
     category: "Portrait",
     size: '20" x 24"',
   },
@@ -75,7 +75,7 @@ export const artworks = [
     price: 290,
     description:
       "An abstract composition featuring geometric shapes arranged in perfect balance. The careful use of color creates visual harmony while maintaining a sense of dynamic energy throughout the piece.",
-    image: "/placeholder.svg?height=500&width=500&text=Geometric+Harmony",
+    image: "/amir-shiri-1-LkMt10mKQ-unsplash.jpg",
     category: "Abstract",
     size: '24" x 24"',
   },
@@ -85,7 +85,7 @@ export const artworks = [
     price: 260,
     description:
       "A vibrant landscape depicting a forest path in the height of autumn. The rich reds, oranges, and yellows of falling leaves create a warm atmosphere that celebrates the changing seasons.",
-    image: "/placeholder.svg?height=500&width=500&text=Autumn+Path",
+    image: "/birmingham-museums-trust-8wcoY3wcbL0-unsplash.jpg",
     category: "Landscape",
     size: '30" x 40"',
   },
@@ -95,7 +95,7 @@ export const artworks = [
     price: 230,
     description:
       "A classic still life arrangement featuring antique objects and fruit. The painting uses traditional techniques to create rich textures and dramatic lighting reminiscent of the Old Masters.",
-    image: "/placeholder.svg?height=500&width=500&text=Vintage+Still+Life",
+    image: "/birmingham-museums-trust-ze_aQiu3ZFU-unsplash.jpg",
     category: "Still Life",
     size: '16" x 20"',
   },
@@ -105,7 +105,7 @@ export const artworks = [
     price: 375,
     description:
       "An elegant portrait that captures both the physical likeness and inner character of the subject. The soft brushwork and careful attention to facial features create a sense of timeless beauty.",
-    image: "/placeholder.svg?height=500&width=500&text=Portrait+of+Grace",
+    image: "/kseniya-lapteva-JQ8NvUHhRgM-unsplash.jpg",
     category: "Portrait",
     size: '18" x 24"',
   },
@@ -115,9 +115,8 @@ export const artworks = [
     price: 320,
     description:
       "An abstract interpretation of celestial bodies in motion. Swirling forms and luminous colors evoke the vast beauty of space and the dynamic energy of stars and galaxies.",
-    image: "/placeholder.svg?height=500&width=500&text=Cosmic+Dance",
+    image: "/europeana-5TK1F5VfdIk-unsplash.jpg",
     category: "Abstract",
     size: '36" x 36"',
   },
-]
-
+];

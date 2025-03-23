@@ -1,6 +1,7 @@
 "use client"
 
 import { PageHeader } from "@/components/page-header"
+import Image from "next/image"
 
 export default function About() {
   return (
@@ -11,10 +12,13 @@ export default function About() {
         <div className="relative">
           <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary/10 rounded-full -z-10" />
           <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full -z-10" />
-          <img
-            src="/placeholder.svg?height=600&width=500&text=Artist"
+          <Image
+            width={500}
+            height={500}
+            src="/tesfa.jpg"
             alt="Artist portrait"
             className="w-full h-auto rounded-lg shadow-lg object-cover relative z-10"
+            priority
           />
           <div className="absolute top-4 right-4 w-32 h-32 border-2 border-primary/20 rounded-full -z-10" />
         </div>

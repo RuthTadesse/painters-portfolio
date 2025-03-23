@@ -93,8 +93,9 @@ export function Header() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
                   >
-                    <Link
-                      href={item.href}
+                    <SheetClose asChild>
+                      <Link
+                        href={item.href}
                       className={`py-2 text-lg font-medium transition-colors hover:text-primary ${
                         pathname === item.href
                           ? "text-primary"
@@ -102,7 +103,8 @@ export function Header() {
                       }`}
                     >
                       {item.name}
-                    </Link>
+                      </Link>
+                    </SheetClose>
                   </motion.div>
                 ))}
                 <motion.div
