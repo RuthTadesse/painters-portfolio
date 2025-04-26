@@ -1,13 +1,13 @@
 export const artworks = [
   {
     id: 1,
-    title: "START FITNESS",
-    price: 200,
+    title: "FAST DELIVERY",
+    price: 325,
     description:
-      "This logo for the fitness coaching company features the word START with a bold, green greater-than symbol (>) integrated into the design. The symbol splits the background into black and white halves, symbolizing progress, direction, and transformation. The sharp, modern font and contrasting colors convey energy, motivation, and a clear path forward—perfect for a fitness brand focused on helping clients take action and achieve their goals.",
-    image: "/olga-nayda-zvm4JMDSLfo-unsplash.png",
+      "The Fast Delivery logo features a stylized F with a dynamic, forward-leaning design, incorporating small rectangular elements to suggest speed and motion. Available in vibrant red, orange, white, and black variations, the logo uses bold, modern typography for FAST DELIVERY below, effectively conveying efficiency and reliability for a delivery service brand.",
+    image: "/start logo.png",
     category: "Logo",
-    size: '18" x 24"',
+    size: '36" x 24"',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const artworks = [
     price: 260,
     description:
       "The logo for Addis Coffee features a minimalist design of a steaming coffee cup and saucer, rendered in a rich brown hue. The sleek, flowing lines of the saucer and steam create a sense of warmth and motion, while the bold, clean font of ADDIS COFFEE below conveys professionalism and authenticity, perfectly reflecting the brand’s dedication to quality coffee.",
-    image: "/birmingham-museums-trust-8wcoY3wcbL0-unsplash.png",
+    image: "/addis coffee logo.png",
     category: "Logo",
     size: '30" x 40"',
   },
@@ -40,28 +40,18 @@ export const artworks = [
     size: '20" x 30"',
   },
   {
-    id: 5,
+    id: 1,
     title: "FAST DELIVERY",
-    price: 325,
+    price: 200,
     description:
-      "The Fast Delivery logo features a stylized F with a dynamic, forward-leaning design, incorporating small rectangular elements to suggest speed and motion. Available in vibrant red, orange, white, and black variations, the logo uses bold, modern typography for FAST DELIVERY below, effectively conveying efficiency and reliability for a delivery service brand.",
-    image: "/irvin-zheng-HzH7Yp-snr0-unsplash.png",
+      "This logo for the fitness coaching company features the word START with a bold, green greater-than symbol (>) integrated into the design. The symbol splits the background into black and white halves, symbolizing progress, direction, and transformation. The sharp, modern font and contrasting colors convey energy, motivation, and a clear path forward—perfect for a fitness brand focused on helping clients take action and achieve their goals.",
+    image: "/fast delivery logo.png",
     category: "Logo",
-    size: '36" x 24"',
+    size: '18" x 24"',
   },
 
   {
     id: 6,
-    title: "TAMPA DRIVING SCHOOL",
-    price: 280,
-    description:
-      "A serene seascape that captures the gentle movement of waves against a rocky shore. The painting evokes the soothing sounds and smells of the ocean, creating a sense of calm and tranquility.",
-    image: "/mahbub-majid-Jgfp03wkcAU-unsplash.png",
-    category: "Logo",
-    size: '24" x 36"',
-  },
-  {
-    id: 7,
     title: "FAST DELIVERY",
     price: 350,
     description:
@@ -69,6 +59,16 @@ export const artworks = [
     image: "/birmingham-museums-trust-sJr8LDyEf7k-unsplash.png",
     category: "Poster",
     size: '20" x 24"',
+  },
+  {
+    id: 7,
+    title: "TAMPA DRIVING SCHOOL",
+    price: 280,
+    description:
+      "A serene seascape that captures the gentle movement of waves against a rocky shore. The painting evokes the soothing sounds and smells of the ocean, creating a sense of calm and tranquility.",
+    image: "/tigat driving logo.png",
+    category: "Logo",
+    size: '24" x 36"',
   },
   {
     id: 8,
@@ -81,6 +81,17 @@ export const artworks = [
     size: '24" x 24"',
   },
   {
+    id: 10,
+    title: "ETHIO-COM SCHOOL",
+    price: 230,
+    description:
+      "A classic still life arrangement featuring antique objects and fruit. The painting uses traditional techniques to create rich textures and dramatic lighting reminiscent of the Old Masters.",
+    image: "/ethio com school logo.png",
+    category: "Logo",
+    size: '16" x 20"',
+  },
+
+  {
     id: 9,
     title: "ETHIO-COMPUTER SCHOOL",
     price: 300,
@@ -90,19 +101,8 @@ export const artworks = [
     category: "Poster",
     size: '30" x 30"',
   },
-
   {
-    id: 10,
-    title: "ETHIO-COM SCHOOL",
-    price: 230,
-    description:
-      "A classic still life arrangement featuring antique objects and fruit. The painting uses traditional techniques to create rich textures and dramatic lighting reminiscent of the Old Masters.",
-    image: "/birmingham-museums-trust-ze_aQiu3ZFU-unsplash.png",
-    category: "Logo",
-    size: '16" x 20"',
-  },
-  {
-    id: 12,
+    id: 11,
     title: "Start Fitness",
     price: 320,
     description:
