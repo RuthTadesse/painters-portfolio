@@ -62,7 +62,7 @@ export const artworks = [
   },
   {
     id: 7,
-    title: "TAMPA DRIVING SCHOOL",
+    title: "TIGAT DRIVING SCHOOL",
     price: 280,
     description:
       "A serene seascape that captures the gentle movement of waves against a rocky shore. The painting evokes the soothing sounds and smells of the ocean, creating a sense of calm and tranquility.",
