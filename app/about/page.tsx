@@ -6,7 +6,10 @@ import Image from "next/image"
 export default function About() {
   return (
     <main className="max-w-7xl mx-auto px-4 py-8">
-      <PageHeader title="About the Artist" description="Learn more about the creative journey and inspiration" />
+      <PageHeader
+        title="About Me"
+        description="Learn more about me and my inspiration"
+      />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
         <div className="relative">
@@ -15,8 +18,8 @@ export default function About() {
           <Image
             width={500}
             height={500}
-            src="/tesfa.jpg"
-            alt="Artist portrait"
+            src="/tesfa.png"
+            alt="Designer portrait"
             className="w-full h-auto rounded-lg shadow-lg object-cover relative z-10"
             priority
           />
@@ -25,92 +28,52 @@ export default function About() {
 
         <div className="space-y-6">
           <div>
-            <h2 className="text-2xl font-bold font-serif">The Artist</h2>
+            <h2 className="text-2xl font-bold font-serif"></h2>
             <p className="mt-4 text-muted-foreground">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl vel ultricies lacinia, nisl
-              nisl aliquam nisl, vel aliquam nisl nisl sit amet nisl. Sed euismod, nisl vel ultricies lacinia, nisl nisl
-              aliquam nisl, vel aliquam nisl nisl sit amet nisl.
+              As a passionate graphic designer, I thrive at the intersection of
+              creativity and strategy. With a keen eye for detail and a love for
+              storytelling, I craft designs that captivate audiences and elevate
+              brands. My journey is fueled by a relentless pursuit of innovation
+              and a commitment to delivering exceptional visual experiences.
+              Whether it's branding, visual identity, or digital design, I'm
+              dedicated to helping businesses and individuals tell their stories
+              with clarity and impact.
             </p>
-            <p className="mt-4 text-muted-foreground">
-              Vivamus ac risus eget orci mollis sodales. Praesent et dolor bibendum, facilisis magna non, commodo sem.
-              Nullam quis lorem at libero mattis pharetra a non nulla. Vivamus ac risus eget orci mollis sodales.
-            </p>
+            <p className="mt-4 text-muted-foreground"></p>
           </div>
 
-          <div>
-            <h2 className="text-2xl font-bold font-serif">Artistic Journey</h2>
-            <p className="mt-4 text-muted-foreground">
-              Praesent et dolor bibendum, facilisis magna non, commodo sem. Nullam quis lorem at libero mattis pharetra
-              a non nulla. Vivamus ac risus eget orci mollis sodales. Praesent et dolor bibendum, facilisis magna non,
-              commodo sem.
-            </p>
-          </div>
+          
 
           <div>
             <h2 className="text-2xl font-bold font-serif">Inspiration</h2>
             <p className="mt-4 text-muted-foreground">
-              Nullam quis lorem at libero mattis pharetra a non nulla. Vivamus ac risus eget orci mollis sodales.
-              Praesent et dolor bibendum, facilisis magna non, commodo sem. Nullam quis lorem at libero mattis pharetra
-              a non nulla.
+              My creative process is informed by a diverse range of influences,
+              from the aesthetic nuances of art and nature to the innovative
+              principles of technology and culture. I draw inspiration from the
+              works of pioneering designers who continually push the boundaries
+              of visual communication. This eclectic blend of influences enables
+              me to craft designs that are not only visually striking but also
+              strategically effective, resonating with audiences and
+              contributing to the success of my clients.
             </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="mt-24">
-        <h2 className="text-2xl font-bold mb-8 font-serif">Exhibitions & Awards</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="border rounded-lg p-6 shadow-sm bg-card hover:shadow-md transition-shadow">
-            <h3 className="text-xl font-semibold">Exhibitions</h3>
-            <ul className="mt-4 space-y-4">
-              <li className="border-b pb-4">
-                <p className="font-medium">National Gallery Showcase</p>
-                <p className="text-sm text-muted-foreground">New York, 2023</p>
-              </li>
-              <li className="border-b pb-4">
-                <p className="font-medium">Modern Art Exhibition</p>
-                <p className="text-sm text-muted-foreground">Paris, 2022</p>
-              </li>
-              <li>
-                <p className="font-medium">Contemporary Art Fair</p>
-                <p className="text-sm text-muted-foreground">London, 2021</p>
-              </li>
-            </ul>
-          </div>
-
-          <div className="border rounded-lg p-6 shadow-sm bg-card hover:shadow-md transition-shadow">
-            <h3 className="text-xl font-semibold">Awards & Recognition</h3>
-            <ul className="mt-4 space-y-4">
-              <li className="border-b pb-4">
-                <p className="font-medium">Excellence in Fine Arts</p>
-                <p className="text-sm text-muted-foreground">International Art Association, 2023</p>
-              </li>
-              <li className="border-b pb-4">
-                <p className="font-medium">Best New Artist</p>
-                <p className="text-sm text-muted-foreground">Contemporary Art Foundation, 2022</p>
-              </li>
-              <li>
-                <p className="font-medium">Innovation Award</p>
-                <p className="text-sm text-muted-foreground">Modern Art Society, 2021</p>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
 
       <div className="mt-24 mb-12">
-        <h2 className="text-2xl font-bold mb-8 font-serif">Art Philosophy</h2>
+        <h2 className="text-2xl font-bold mb-8 font-serif">Design Philosophy</h2>
         <div className="relative p-8 bg-muted/30 rounded-lg border">
           <div className="absolute top-0 left-8 transform -translate-y-1/2 bg-background px-4 text-primary font-medium">
-            Artist Statement
+            Design Statement
           </div>
           <blockquote className="text-lg italic text-muted-foreground">
-            "Art is not what you see, but what you make others see. My work aims to bridge the gap between perception
-            and emotion, inviting viewers to discover their own narratives within each piece."
+            "Design is not what you see, but what you make others see. My work aims
+            to bridge the gap between perception and emotion, inviting viewers
+            to discover their own narratives within each Work."
           </blockquote>
         </div>
       </div>
     </main>
-  )
+  );
 }
 

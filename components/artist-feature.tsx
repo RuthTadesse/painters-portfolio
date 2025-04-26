@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
-export function ArtistFeature() {
+export function ArtisstFeature() {
   return (
     <section className="py-16 overflow-hidden">
       <div className="max-w-7xl px-4 mx-auto">
@@ -14,8 +14,8 @@ export function ArtistFeature() {
               <Image
                 width={500}
                 height={500}
-                src="/tesfa.jpg"
-                alt="ThemeProvider Artist"
+                src="/tesfa.png"
+                alt="ThemeProvider Designer"
                 className="w-full h-auto rounded-lg shadow-lg object-cover relative z-10"
               />
               <div className="absolute top-4 right-4 w-32 h-32 border-2 border-primary/20 rounded-full -z-10" />
@@ -23,15 +23,22 @@ export function ArtistFeature() {
           </div>
 
           <div className="order-1 md:order-2">
-            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">Meet the Artist</h2>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6">
+              About Me
+            </h2>
             <div className="space-y-4 text-muted-foreground mb-8">
               <p>
-                With over a decade of experience in fine arts, our featured artist brings a unique perspective to every
-                canvas, blending traditional techniques with contemporary vision.
+                As a passionate graphic designer, I thrive at the intersection
+                of creativity and strategy. With a keen eye for detail and a
+                love for storytelling, I craft designs that captivate audiences
+                and elevate brands.
               </p>
               <p>
-                Each artwork is a journey through emotions, memories, and imagination, inviting viewers to discover
-                their own interpretations and connections.
+                My journey is fueled by a relentless pursuit of innovation and a
+                commitment to delivering exceptional visual experiences. Whether
+                it's branding, visual identity, or digital design, I'm dedicated
+                to helping businesses and individuals tell their stories with
+                clarity and impact.
               </p>
             </div>
             <Button asChild>
@@ -44,6 +51,6 @@ export function ArtistFeature() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 

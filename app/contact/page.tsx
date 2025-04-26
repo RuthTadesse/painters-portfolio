@@ -68,52 +68,65 @@ export default function Contact() {
     <main className="max-w-7xl mx-auto px-4 py-8">
       <PageHeader
         title="Contact"
-        description="Get in touch with the artist or inquire about artworks"
+        description="Get in touch with the Designer or inquire about Designs"
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
-        <div className="flex flex-col gap-8 h-full">
-          <Card className="flex-1 bg-background/50 max-h-fit overflow-hidden relative">
+      <div className="flex gap-8 mt-12">
+        <div className="flex flex-col gap-8 h-full w-1/2">
+          
+          <Card className="relative flex-1 bg-background/50 max-h-fit overflow-hidden">
             <div className="absolute top-0 right-0 w-full h-4 bg-white blur-2xl opacity-30"></div>
-            <CardHeader>
-              <CardTitle className="font-serif">Get in Touch</CardTitle>
+            <CardHeader className="pb-5">
+              <CardTitle className="font-serif mb-2.5">
+                Reach out to the Designer
+              </CardTitle>
               <CardDescription>
-                Interested in commissioning a piece or have questions about an
-                artwork? Fill out the form or reach out through social media.
+                Call us to get more information about My Designs and services.
               </CardDescription>
             </CardHeader>
-            <CardContent>
-              <ContactLinks />
-            </CardContent>
-          </Card>
-
-          <Card className="relative bg-background/50 max-h-fit overflow-hidden">
-            <div className="absolute top-0 right-0 w-full h-4 bg-white blur-2xl opacity-30"></div>
-            <CardHeader>
-              <CardTitle className="text-xl font-serif">
-                Studio Location
-              </CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <p className="text-muted-foreground">
-                Bole Road, Atlas Area
-                <br />
-                Addis Ababa
-                <br />
-                Ethiopia
-              </p>
-
-              <div className="aspect-video w-full bg-muted rounded-lg overflow-hidden">
-                <div className="w-full h-full flex items-center justify-center bg-muted">
-                  <p className="text-muted-foreground">Map Location</p>
+            <CardContent className="flex flex-col sm:flex-row items-start text-sm justify-between gap-1">
+              <div className="flex flex-col gap-4">
+                <div className="flex items-center gap-2">
+                  <Phone className="h-4 w-4 text-muted-foreground" />
+                  <div className="flex flex-col gap-2">
+                    <a
+                      href="tel:+251900575923"
+                      className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
+                    >
+                      +251 900575923
+                    </a>
+                    <a
+                      href="tel:+251949983399"
+                      className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
+                    >
+                      +251 949983399
+                    </a>
+                    
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col gap-4">
+                <div className="flex items-start gap-2">
+                  <Clock className="h-4 w-4 text-muted-foreground mt-1" />
+                  <p className="text-muted-foreground">
+                    Monday - Saturday: 9:00 AM - 6:00 PM
+                    <br />
+                    
+                  </p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <Mail className="h-4 w-4 text-muted-foreground" />
+                  <a
+                    href="hundienahom@gmail.com"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    hundienahom@gmail.com
+                  </a>
                 </div>
               </div>
             </CardContent>
           </Card>
-        </div>
-
-        <div className="flex flex-col gap-4 h-full">
-          <Card className="relative h-full bg-background/50 max-h-fit overflow-hidden">
+          <Card className="relative bg-background/50 max-h-fit overflow-hidden">
             <div className="absolute top-0 right-0 w-full h-4 bg-white blur-2xl opacity-30"></div>
             <CardHeader>
               <CardTitle className="text-xl font-serif">
@@ -204,58 +217,19 @@ export default function Contact() {
               </form>
             </Form>
           </Card>
-          <Card className="relative flex-1 bg-background/50 max-h-fit overflow-hidden">
+        </div><Card className="flex-1 bg-background/50 max-h-fit overflow-hidden relative">
             <div className="absolute top-0 right-0 w-full h-4 bg-white blur-2xl opacity-30"></div>
-            <CardHeader className="pb-3">
-              <CardTitle className="font-serif">
-                Reach out to the artist
-              </CardTitle>
+            <CardHeader>
+              <CardTitle className="font-serif">Get in Touch</CardTitle>
               <CardDescription>
-                Call us to get more information about our artworks and services.
+                Interested in building a Brand or have questions on how to
+                rebrand? Fill out the form or reach out through social media.
               </CardDescription>
             </CardHeader>
-            <CardContent className="flex flex-col sm:flex-row items-start text-sm justify-between gap-1">
-              <div className="flex flex-col gap-4">
-                <div className="flex items-center gap-2">
-                  <Phone className="h-4 w-4 text-muted-foreground" />
-                  <div className="flex flex-col gap-2">
-                    <a
-                      href="tel:+251911234567"
-                      className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
-                    >
-                      +251 911 234567
-                    </a>
-                    <a
-                      href="tel:+251911987654"
-                      className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
-                    >
-                      +251 911 987654
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="flex flex-col gap-4">
-                <div className="flex items-start gap-2">
-                  <Clock className="h-4 w-4 text-muted-foreground mt-1" />
-                  <p className="text-muted-foreground">
-                    Monday - Saturday: 9:00 AM - 6:00 PM
-                    <br />
-                    Sunday: 2:00 PM - 6:00 PM (EAT)
-                  </p>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Mail className="h-4 w-4 text-muted-foreground" />
-                  <a
-                    href="mailto:info@artstudio.et"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    info@artstudio.et
-                  </a>
-                </div>
-              </div>
+            <CardContent>
+              <ContactLinks />
             </CardContent>
           </Card>
-        </div>
       </div>
     </main>
   );

@@ -5,7 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
 export const metadata = {
-  title: "Artist Portfolio",
+  title: "Designer Portfolio",
   description: "A showcase of beautiful paintings and artworks",
 }
 

@@ -8,10 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <Link href="/" className="font-serif font-bold text-2xl">
-              <span className="text-primary">Art</span>Studio
+              <span className="text-primary">Nahom's </span>Designs
             </Link>
             <p className="mt-4 text-muted-foreground">
-              Showcasing unique artworks and paintings that capture emotions and stories. Each piece is created with
+              Showcasing unique Design that capture emotions and stories. Each Design is created with
               passion and attention to detail.
             </p>
             <ContactLinks className="mt-6" />
@@ -22,7 +22,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li>
                 <Link href="/" className="text-muted-foreground hover:text-primary transition-colors">
-                  Gallery
+                  Home
                 </Link>
               </li>
               <li>
@@ -46,17 +46,17 @@ export function Footer() {
                   href="/?category=Landscape"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Landscape
+                  Logo
                 </Link>
               </li>
               <li>
                 <Link href="/?category=Abstract" className="text-muted-foreground hover:text-primary transition-colors">
-                  Abstract
+                  Poster
                 </Link>
               </li>
               <li>
                 <Link href="/?category=Portrait" className="text-muted-foreground hover:text-primary transition-colors">
-                  Portrait
+                  Bus Card
                 </Link>
               </li>
               <li>
@@ -64,7 +64,7 @@ export function Footer() {
                   href="/?category=Still Life"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  Still Life
+                  
                 </Link>
               </li>
             </ul>
@@ -72,7 +72,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} ArtStudio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Nahom's Design. All rights reserved.</p>
         </div>
       </div>
     </footer>

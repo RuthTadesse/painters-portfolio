@@ -29,16 +29,16 @@ export function HeroSection() {
           className="max-w-3xl"
         >
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6">
-            Where Art Meets <span className="text-primary">Imagination</span>
+            Crafting Concepts,{" "}
+            <span className="text-primary">Capturing Creativity</span>
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl">
-            Discover a collection of unique artworks that capture emotions,
-            stories, and moments frozen in time through vibrant colors and
-            expressive brushstrokes.
+            Bringing Your Brand to Life: Creating Engaging, Memorable, and
+            Effective Designs that Resonate with Your Audience.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" asChild>
-              <Link href="/#gallery">Explore Gallery</Link>
+              <Link href="/#Home">Latest Works</Link>
             </Button>
             <Button
               size="lg"
@@ -46,7 +46,7 @@ export function HeroSection() {
               className="bg-background/20 text-white hover:text-white backdrop-blur-sm hover:bg-background/30"
               asChild
             >
-              <Link href="/contact">Contact Artist</Link>
+              <Link href="/contact">Contact Me</Link>
             </Button>
           </div>
         </motion.div>

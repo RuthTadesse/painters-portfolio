@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { motion } from "framer-motion"
 
-const categories = ["All", "Landscape", "Abstract", "Portrait", "Still Life"]
+const categories = ["All", "Logo", "Poster", "Bus-cards",]
 
 export function FilterBar() {
   const router = useRouter()
@@ -14,9 +14,9 @@ export function FilterBar() {
 
   const handleCategoryChange = (category: string) => {
     if (category === "All") {
-      router.push("/#gallery")
+      router.push("/#Home")
     } else {
-      router.push(`/?category=${category}#gallery`)
+      router.push(`/?category=${category}#Home`)
     }
   }
 

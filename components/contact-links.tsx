@@ -11,31 +11,27 @@ export function ContactLinks({ className }: ContactLinksProps) {
   return (
     <div className={cn("flex flex-wrap gap-3", className)}>
       <Button variant="outline" size="icon" asChild>
-        <a href="https://t.me/artistname" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://t.me/Nahom5759"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Send className="h-4 w-4" />
           <span className="sr-only">Telegram</span>
         </a>
       </Button>
       <Button variant="outline" size="icon" asChild>
-        <a href="https://instagram.com/artistname" target="_blank" rel="noopener noreferrer">
-          <Instagram className="h-4 w-4" />
-          <span className="sr-only">Instagram</span>
-        </a>
-      </Button>
-      <Button variant="outline" size="icon" asChild>
-        <a href="https://tiktok.com/@artistname" target="_blank" rel="noopener noreferrer">
-          <TiktokIcon className="h-4 w-4" />
-          <span className="sr-only">TikTok</span>
-        </a>
-      </Button>
-      <Button variant="outline" size="icon" asChild>
-        <a href="https://messenger.com/artistname" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://wa.me/+251900575923"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <MessageCircle className="h-4 w-4" />
-          <span className="sr-only">Messenger</span>
+          <span className="sr-only">Whatsapp</span>
         </a>
       </Button>
     </div>
-  )
+  );
 }
 
 // Custom TikTok icon since it's not in Lucide

@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/sheet";
 
 const navigation = [
-  { name: "Gallery", href: "/" },
+  { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
@@ -44,7 +44,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-2 flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="font-serif font-bold text-2xl">
-            <span className="text-primary">Art</span>Studio
+            <span className="text-primary">Nahom's </span>Designs
           </Link>
         </div>
 
@@ -67,7 +67,7 @@ export function Header() {
         <div className="flex items-center gap-2">
           <ModeToggle />
           <Button asChild className="hidden md:flex">
-            <Link href="/contact">Contact Artist</Link>
+            <Link href="/contact">Contact Me</Link>
           </Button>
 
           <Sheet>
@@ -81,7 +81,7 @@ export function Header() {
               <div className="flex h-8 items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Link href="/" className="font-serif font-bold text-2xl">
-                    <span className="text-primary">Art</span>Studio
+                    <span className="text-primary">Nahoms's {" "}</span>Designs
                   </Link>
                 </div>
               </div>
@@ -113,7 +113,7 @@ export function Header() {
                   transition={{ delay: navigation.length * 0.1 }}
                 >
                   <Button asChild className="mt-4 w-full">
-                    <Link href="/contact">Contact Artist</Link>
+                    <Link href="/contact">Contact Me</Link>
                   </Button>
                 </motion.div>
               </nav>
