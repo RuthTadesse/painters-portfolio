@@ -17,6 +17,7 @@ export function Footer() {
             <ContactLinks className="mt-6" />
           </div>
 
+
           <div>
             <h3 className="font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-3">
