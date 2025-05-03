@@ -72,11 +72,11 @@ export const artworks = [
   },
   {
     id: 8,
-    title: "Ethio-Com School",
+    title: "Tigat",
     price: 290,
     description:
       "An abstract composition featuring geometric shapes arranged in perfect balance. The careful use of color creates visual harmony while maintaining a sense of dynamic energy throughout the piece.",
-    image: "/tampa-bus-card.png",
+    image: "/tampa bus card.png",
     category: "Bus-cards",
     size: '24" x 24"',
   },
