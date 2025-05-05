@@ -159,7 +159,7 @@ export const artworks = [
     price: 250,
     description:
       "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
-    image: "/Shega interior bus card.png",
+    image: "/Shega Interior Bus Card.png",
     category: "Bus-cards",
     size: '24" x 36"',
   },
