@@ -92,7 +92,7 @@ export default function ArtworkDetails({ params }: { params: { id: string } }) {
 
           <div className="pt-4 border-t">
             <h2 className="text-xl font-semibold mb-4">
-              Interested in this piece?
+              Interested in this design?
             </h2>
             <div className="flex flex-wrap gap-3">
               <Button className="flex-1">Contact Me</Button>
