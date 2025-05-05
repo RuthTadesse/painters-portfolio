@@ -70,16 +70,7 @@ export const artworks = [
     category: "Logo",
     size: '24" x 36"',
   },
-  {
-    id: 8,
-    title: "Tigat",
-    price: 290,
-    description:
-      "An abstract composition featuring geometric shapes arranged in perfect balance. The careful use of color creates visual harmony while maintaining a sense of dynamic energy throughout the piece.",
-    image: "/tampa bus card.png",
-    category: "Bus-cards",
-    size: '24" x 24"',
-  },
+  
   {
     id: 10,
     title: "ETHIO-COM SCHOOL",
@@ -101,16 +92,7 @@ export const artworks = [
     category: "Poster",
     size: '30" x 30"',
   },
-  {
-    id: 11,
-    title: "Start Fitness",
-    price: 320,
-    description:
-      "An abstract interpretation of celestial bodies in motion. Swirling forms and luminous colors evoke the vast beauty of space and the dynamic energy of stars and galaxies.",
-    image: "/europeana-5TK1F5VfdIk-unsplash.png",
-    category: "Bus-cards",
-    size: '36" x 36"',
-  },
+  
   {
     id: 12,
     title: "Tigat Driving School",
@@ -141,7 +123,7 @@ export const artworks = [
     category: "Poster",
     size: '24" x 36"',
   },
-   {
+  {
     id: 14,
     title: "SAREM FURNITURE",
     price: 250,
@@ -151,5 +133,34 @@ export const artworks = [
     category: "Poster",
     size: '24" x 36"',
   },
-  
+  {
+    id: 15,
+    title: "PRIVATE CENTER REAL ESTATE",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/pvt center bus card.png",
+    category: "Bus-cards",
+    size: '24" x 36"',
+  },
+  {
+    id: 16,
+    title: "LEGAL TECH",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/legal tech bus card.png",
+    category: "Bus-cards",
+    size: '24" x 36"',
+  },
+  {
+    id: 17,
+    title: "SHEGA INTERIOR DESIGN",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/Shega interior bus card.png",
+    category: "Bus-cards",
+    size: '24" x 36"',
+  },
 ];
