@@ -1,7 +1,7 @@
 export const artworks = [
   {
     id: 1,
-    title: "FAST DELIVERY",
+    title: "START FITNESS COACHING",
     price: 325,
     description:
       "The Fast Delivery logo features a stylized F with a dynamic, forward-leaning design, incorporating small rectangular elements to suggest speed and motion. Available in vibrant red, orange, white, and black variations, the logo uses bold, modern typography for FAST DELIVERY below, effectively conveying efficiency and reliability for a delivery service brand.",
