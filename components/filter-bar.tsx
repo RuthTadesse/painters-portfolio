@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { motion } from "framer-motion"
 
-const categories = ["All", "Logo", "Poster", "Bus-cards",]
+const categories = ["All", "Logo","Logo Presentation", "Poster", "Bus-cards",]
 
 export function FilterBar() {
   const router = useRouter()
