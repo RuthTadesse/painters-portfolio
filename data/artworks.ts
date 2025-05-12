@@ -1,21 +1,51 @@
 export const artworks = [
   {
-    id: 8,
-    title: "START FITNESS COACHING",
-    price: 325,
-    description:
-      "The Fast Delivery logo features a stylized F with a dynamic, forward-leaning design, incorporating small rectangular elements to suggest speed and motion. Available in vibrant red, orange, white, and black variations, the logo uses bold, modern typography for FAST DELIVERY below, effectively conveying efficiency and reliability for a delivery service brand.",
-    image: "/start logo.png",
-    category: "Logo",
-    size: '36" x 24"',
-  },
-  {
-    id: 9,
-    title: "START FITNESS",
+    id: 1,
+    title: "KIBUR COLLEGE",
     price: 250,
     description:
-      "For the START Fitness Coaching poster, I crafted a dynamic design using a grayscale and green palette, with bold typography for the slogan STAY FIT NOT STILL. My skills ensure the START logo pops and the call-to-action (+251900575923) is clear, driving engagement effectively.",
-    image: "/nicolas-pinilla-9wAyg2DHwT0-unsplash.jpg",
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/kibur college poster.png",
+    category: "Poster",
+    size: '24" x 36"',
+  },
+  {
+    id: 2,
+    title: "ADDIS FLY TRAVEL AGENCY",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/Addis sky consultancy poster.jpg",
+    category: "Poster",
+    size: '24" x 36"',
+  },
+  {
+    id: 3,
+    title: "SAREM FURNITURE",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/sarem furniture poster.png",
+    category: "Poster",
+    size: '24" x 36"',
+  },
+  {
+    id: 4,
+    title: "SHEGA INTERIOR DESIGN",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/Shega Interior Bus Card.png",
+    category: "Bus-cards",
+    size: '24" x 36"',
+  },
+  {
+    id: 5,
+    title: "Tigat Driving School",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/Tigat poster.png",
     category: "Poster",
     size: '24" x 36"',
   },
@@ -39,6 +69,27 @@ export const artworks = [
     category: "Poster",
     size: '20" x 30"',
   },
+  {
+    id: 8,
+    title: "START FITNESS COACHING",
+    price: 325,
+    description:
+      "The Fast Delivery logo features a stylized F with a dynamic, forward-leaning design, incorporating small rectangular elements to suggest speed and motion. Available in vibrant red, orange, white, and black variations, the logo uses bold, modern typography for FAST DELIVERY below, effectively conveying efficiency and reliability for a delivery service brand.",
+    image: "/start logo.png",
+    category: "Logo",
+    size: '36" x 24"',
+  },
+  {
+    id: 9,
+    title: "START FITNESS",
+    price: 250,
+    description:
+      "For the START Fitness Coaching poster, I crafted a dynamic design using a grayscale and green palette, with bold typography for the slogan STAY FIT NOT STILL. My skills ensure the START logo pops and the call-to-action (+251900575923) is clear, driving engagement effectively.",
+    image: "/nicolas-pinilla-9wAyg2DHwT0-unsplash.jpg",
+    category: "Poster",
+    size: '24" x 36"',
+  },
+
   {
     id: 10,
     title: "FAST DELIVERY",
@@ -94,46 +145,6 @@ export const artworks = [
   },
 
   {
-    id: 5,
-    title: "Tigat Driving School",
-    price: 250,
-    description:
-      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
-    image: "/Tigat poster.png",
-    category: "Poster",
-    size: '24" x 36"',
-  },
-  {
-    id: 1,
-    title: "KIBUR COLLEGE",
-    price: 250,
-    description:
-      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
-    image: "/kibur college poster.png",
-    category: "Poster",
-    size: '24" x 36"',
-  },
-  {
-    id: 2,
-    title: "ADDIS FLY TRAVEL AGENCY",
-    price: 250,
-    description:
-      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
-    image: "/Addis sky consultancy poster.jpg",
-    category: "Poster",
-    size: '24" x 36"',
-  },
-  {
-    id: 3,
-    title: "SAREM FURNITURE",
-    price: 250,
-    description:
-      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
-    image: "/sarem furniture poster.png",
-    category: "Poster",
-    size: '24" x 36"',
-  },
-  {
     id: 15,
     title: "PRIVATE CENTER REAL ESTATE",
     price: 250,
@@ -153,16 +164,7 @@ export const artworks = [
     category: "Bus-cards",
     size: '24" x 36"',
   },
-  {
-    id: 4,
-    title: "SHEGA INTERIOR DESIGN",
-    price: 250,
-    description:
-      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
-    image: "/Shega Interior Bus Card.png",
-    category: "Bus-cards",
-    size: '24" x 36"',
-  },
+
   {
     id: 17,
     title: "FAST DELIVERY",
