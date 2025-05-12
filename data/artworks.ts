@@ -1,6 +1,6 @@
 export const artworks = [
   {
-    id: 1,
+    id: 8,
     title: "START FITNESS COACHING",
     price: 325,
     description:
@@ -10,7 +10,7 @@ export const artworks = [
     size: '36" x 24"',
   },
   {
-    id: 2,
+    id: 9,
     title: "START FITNESS",
     price: 250,
     description:
@@ -20,7 +20,7 @@ export const artworks = [
     size: '24" x 36"',
   },
   {
-    id: 3,
+    id: 6,
     title: "ADDIS COFFEE",
     price: 260,
     description:
@@ -30,7 +30,7 @@ export const artworks = [
     size: '30" x 40"',
   },
   {
-    id: 4,
+    id: 7,
     title: "ADDIS COFFEE",
     price: 275,
     description:
@@ -40,7 +40,7 @@ export const artworks = [
     size: '20" x 30"',
   },
   {
-    id: 1,
+    id: 10,
     title: "FAST DELIVERY",
     price: 200,
     description:
@@ -51,7 +51,7 @@ export const artworks = [
   },
 
   {
-    id: 6,
+    id: 11,
     title: "FAST DELIVERY",
     price: 350,
     description:
@@ -61,7 +61,7 @@ export const artworks = [
     size: '20" x 24"',
   },
   {
-    id: 7,
+    id: 12,
     title: "TIGAT DRIVING SCHOOL",
     price: 280,
     description:
@@ -72,7 +72,7 @@ export const artworks = [
   },
 
   {
-    id: 10,
+    id: 13,
     title: "ETHIO-COM SCHOOL",
     price: 230,
     description:
@@ -83,7 +83,7 @@ export const artworks = [
   },
 
   {
-    id: 9,
+    id: 14,
     title: "ETHIO-COMPUTER SCHOOL",
     price: 300,
     description:
@@ -94,7 +94,7 @@ export const artworks = [
   },
 
   {
-    id: 12,
+    id: 5,
     title: "Tigat Driving School",
     price: 250,
     description:
@@ -104,7 +104,7 @@ export const artworks = [
     size: '24" x 36"',
   },
   {
-    id: 13,
+    id: 1,
     title: "KIBUR COLLEGE",
     price: 250,
     description:
@@ -114,7 +114,7 @@ export const artworks = [
     size: '24" x 36"',
   },
   {
-    id: 13,
+    id: 2,
     title: "ADDIS FLY TRAVEL AGENCY",
     price: 250,
     description:
@@ -124,7 +124,7 @@ export const artworks = [
     size: '24" x 36"',
   },
   {
-    id: 14,
+    id: 3,
     title: "SAREM FURNITURE",
     price: 250,
     description:
@@ -154,7 +154,7 @@ export const artworks = [
     size: '24" x 36"',
   },
   {
-    id: 17,
+    id: 4,
     title: "SHEGA INTERIOR DESIGN",
     price: 250,
     description:
@@ -164,7 +164,7 @@ export const artworks = [
     size: '24" x 36"',
   },
   {
-    id: 18,
+    id: 17,
     title: "FAST DELIVERY",
     price: 250,
     description:
