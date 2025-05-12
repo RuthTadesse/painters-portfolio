@@ -175,4 +175,24 @@ export const artworks = [
     category: "Logo Presentation",
     size: '24" x 36"',
   },
+  {
+    id: 18,
+    title: "START FITNESS COACHING",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/Start fitness caoching.png",
+    category: "Logo Presentation",
+    size: '24" x 36"',
+  },
+  {
+    id: 19,
+    title: "ADDIS COFFEE",
+    price: 250,
+    description:
+      "For the Tigat Driving School poster, I crafted a dynamic design using a bluescale and yellow palette, with bold typography for the slogan ITS TIME TO DRIVE. My skills ensure the TIGAT logo pops and the call-to-action is clear, driving engagement effectively.",
+    image: "/Addis Coffee presentation.png",
+    category: "Logo Presentation",
+    size: '24" x 36"',
+  },
 ];
